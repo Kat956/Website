@@ -1,3 +1,10 @@
 body {
 
 }
+
+.banner {
+  background-image: url("../img/main.jpg");
+  height: 350px;
+  background-size: 100%; 
+  background-repeat: none;
+}
