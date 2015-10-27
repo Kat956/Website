@@ -1,9 +1,12 @@
+/* Gurveena's & Kat's Web Assignment*/
+
 @import url("https://fonts.googleapis.com/css?family=Josefin+Sans:100");
 
 body {
   background-image: url("../img/hairdry.jpg");
   background-size: 100%; 
   background-repeat: none;
+  font-family: 'Josefin Sans';
 }
 /*--------------------------------Button on Home Page---------------------*/
 input.MyButton {
@@ -33,7 +36,6 @@ box-shaddow: 2px 2px 5px; #666666;
 /*---------------------- Styles for the entire LavaLamp menu -----------------*/
 
 /* Styles for the menu */
->>>>>>> Stashed changes
 .lavaLamp {
   position: relative;
   height: 40px; 
@@ -67,9 +69,8 @@ box-shaddow: 2px 2px 5px; #666666;
 .lavaLamp li a {
   position: relative; overflow: hidden;
   text-decoration: none;
-  text-transform: uppercase;
-  font: bold 14px arial;
-  color: #fff; outline: none;
+  text-transform: uppercase; 
+  color: black;
   text-align: center;
   height: 30px; top: 7px;
   z-index: 10; letter-spacing: 0;
@@ -77,14 +78,19 @@ box-shaddow: 2px 2px 5px; #666666;
   margin: auto 10px;
 }
 
-.logo {
-  background-image: url("../img/logo.png");
-  background-repeat: none;
-  padding: 150px;
-  display: inline-block;
-  background-size:100%;
+li.logo img {
+  height: 80px;
+  margin-top: -20px;  
 }
 
-nav {
+ul {
   display: inline-block;
 }
+
+/*---------------------- ? -----------------*/
+
+h1 {
+  font-size: 45px;  
+}
+
+
