@@ -4,11 +4,9 @@ body {
   background-size: 100%; 
   background-repeat: none;
 }
-<<<<<<< HEAD
-=======
 
 input[type="LEARN THE HOTTEST NEW IDEAS"],
->>>>>>> origin/master
+
 .button:hover {
 			background-color: #232d33;
 		}
@@ -61,4 +59,4 @@ input[type="LEARN THE HOTTEST NEW IDEAS"],
   float: left; display: block;
   margin: auto 10px;
 }
->>>>>>> Stashed changes
+
