@@ -4,3 +4,15 @@ body {
   background-size: 100%; 
   background-repeat: none;
 }
+input[type="LEARN THE HOTTEST NEW IDEAS"],
+.button:hover {
+			background-color: #232d33;
+		}
+
+		.button:active {
+			background-color: #0f1315;
+		}
+
+		.button.icon {
+			padding-left: 1.35em;
+		}
