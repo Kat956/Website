@@ -33,7 +33,7 @@ input.MyButton:hover {
   box-shaddow: 2px 2px 5px; #666666;
 }
 
-/*---------------------- Styles for the entire LavaLamp menu -----------------*/
+/*---------------------- Styles for the entire lavaLamp menu -----------------*/
 
 /* Styles for the menu */
 .lavaLamp {
@@ -68,15 +68,18 @@ input.MyButton:hover {
     
 /* Styles for each menu-item. */
 .lavaLamp li a {
-  position: relative; overflow: hidden;
+  position: relative; 
+  overflow: hidden;
   text-decoration: none;
   text-transform: uppercase; 
   color: #000000;
   font-weight: bold;
   text-align: center;
-  height: 30px; top: 7px;
-  z-index: 10; letter-spacing: 0;
-  float: left; display: block;
+  height: 30px; 
+  top: 7px;
+  z-index: 10; 
+  float: left; 
+  display: block;
   margin: auto 10px;
 }
 
