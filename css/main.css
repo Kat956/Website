@@ -42,6 +42,7 @@ input.MyButton:hover {
   padding: 25px; 
   margin: 10px 0;
   overflow: hidden;
+  display: inline-block;
 }
 
 /* Force the list to flow horizontally */
@@ -79,15 +80,14 @@ input.MyButton:hover {
   margin: auto 10px;
 }
 
-li.logo img {
-  height: 80px;
-  margin-top: -20px;  
+.logo {
+  height: 120px;
+  margin-top: -20px;
 }
 
-ul {
-  display: inline-block;
+nav {
+  text-align: center;
 }
-
 
 /*---------------------- ? -----------------*/
 
@@ -103,7 +103,7 @@ ul {
 }
 
 .fomb {
-  margin-left: 200px;
+  margin-left: 250px;
   margin-top: 30px;
 }
 
