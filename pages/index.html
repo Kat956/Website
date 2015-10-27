@@ -2,11 +2,15 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 
-<script src="../js/jquery-2.1.4.min.js"></script>
-<script>
-  $(document).ready(function(){
-  
-  });
+   <script src="js/jquery-2.1.4.min.js"></script>
+   <script src="js/jquery.lavalamp.js"></script>
+   <script src="js/jquery.easing.min.js"></script>
+
+   <script type="text/javascript">
+    $(function(){
+      $(".lavaLamp").lavaLamp({ 
+        fx: "backout", speed: 700 
+          })});
 </script>
 
 <head>
@@ -18,39 +22,15 @@
   <header>
     
     <nav>
-      <ul>
+      <ul class="lavaLamp">
       
-        <li class="nolink">Hair
-          <ul>
-            <li><a href="#">
-            Option 1</a></li>
-            <li><a href="#">
-            Option 2</a></li>
-            <li><a href="#">
-            Option 3
-            </a></li>
-          </ul>
-        </li>
+        <li><a href="#">Hair</a></li>
+        <li><a href="#">Makeup</a></li>
+        <li><a href="#">Gallery</a></li>
         
-        <li class="nolink">Makeup
-          <ul>
-            <li><a href="#">
-            Option 1</a></li>
-            <li><a href="#">
-            Option 2</a></li>
-          </ul>
-        </li>
-        
-        <li>
-        <a href="#">
-        Gallery</a></li>
-        
-        <li>
-        <a href="index.html">
-        Home
-        </a></li> 
- 
+      </ul>
     </nav>
+    
     <section id="banner">
 				<div class="inner">
 					<h2>Hair and Makeup</h2>
