@@ -1,10 +1,6 @@
 body {
 
-}
-
-.banner {
-  background-image: url("../img/main.jpg");
-  height: 350px;
+  background-image: url("../img/hairdry.jpg");
   background-size: 100%; 
   background-repeat: none;
 }
