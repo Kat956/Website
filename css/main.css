@@ -70,7 +70,8 @@ input.MyButton:hover {
   position: relative; overflow: hidden;
   text-decoration: none;
   text-transform: uppercase; 
-  color: black;
+  color: #000000;
+  font-weight: bold;
   text-align: center;
   height: 30px; top: 7px;
   z-index: 10; letter-spacing: 0;
