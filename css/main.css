@@ -30,6 +30,9 @@ html {
  .gallery-bg {
   background: url("../img/hairdry.jpg") no-repeat center center fixed;
   }
+  .featured-bg {
+  background: url("../img/hairdry.jpg") no-repeat center center fixed;
+  }
   .quiz-bg {
   background: url("../img/hairdry.jpg")no-repeat center center fixed;
   }
