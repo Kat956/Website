@@ -27,13 +27,13 @@ html {
   background: url("../img/banner2.jpg");
   }
  .gallery-bg {
-  background: url(ADD IMAGE);
+  background: url("../img/hairdry.jpg");
   }
   .quiz-bg {
-  background: url(ADD IMAGE);
+  background: url("../img/hairdry.jpg");
   }
   .about-bg {
-  background: url(ADD IMAGE);
+  background: url("../img/hairdry.jpg");
   }
 /*--------------------------------Button on Home Page---------------------*/
 input.MyButton {
