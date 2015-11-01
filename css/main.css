@@ -3,7 +3,6 @@
 @import url("https://fonts.googleapis.com/css?family=Josefin+Sans:100");
 
 body {
-  background-image: url("../img/hairdry.jpg");
   background-size: 100%; 
   background-repeat: none;
   font-family: 'Josefin Sans';
@@ -18,26 +17,33 @@ html {
 }
 
 /*------------------------------ Set background image per page -------------------*/
+  .index-bg {
+    background: url("../img/hairdry.jpg") no-repeat center center fixed;
+    background-size: 100%;
+  }
+  
   .hair-bg {
-  background: url("../img/hair.jpg") no-repeat center center fixed;
+    background: url("../img/hair.jpg") no-repeat center center fixed;
   }
   .makeup-bg {
-  background: url("../img/brush.jpg") no-repeat center center fixed;
+    background: url("../img/brush.jpg") no-repeat center center fixed;
   }
   .nails-bg {
-  background: url("../img/banner2.jpg") no-repeat center center fixed;
+    background: url("../img/nails.png") no-repeat center center fixed;
+    background-size: 50%;
+    background-position: right top;
   }
  .gallery-bg {
-  background: url("../img/hairdry.jpg") no-repeat center center fixed;
+    background: url("../img/hairdry.jpg") no-repeat center center fixed;
   }
   .featured-bg {
-  background: url("../img/hairdry.jpg") no-repeat center center fixed;
+    background: url("../img/hairdry.jpg") no-repeat center center fixed;
   }
   .quiz-bg {
-  background: url("../img/hairdry.jpg")no-repeat center center fixed;
+    background: url("../img/hairdry.jpg")no-repeat center center fixed;
   }
   .about-bg {
-  background: url("../img/hairdry.jpg")no-repeat center center fixed;
+    background: url("../img/hairdry.jpg")no-repeat center center fixed;
   }
 /*--------------------------------Button on Home Page---------------------*/
 input.MyButton {
