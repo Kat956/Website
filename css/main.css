@@ -37,8 +37,8 @@ html {
   }
   .nails-bg {
     background: url("../img/nails.png") no-repeat center center fixed;
-    background-size: 50%;
-    background-position: right top;
+    background-size: 40%;
+    background-position: left;
   }
   .featured-bg {
     background: url("../img/hairdry.jpg") no-repeat center center fixed;
@@ -75,9 +75,9 @@ input.MyButton:hover {
 /* Styles for the menu */
 .lavaLamp {
   position: relative;
+  top: -50px;
   height: 40px; 
   padding: 25px; 
-  margin: 10px 0;
   overflow: hidden;
   display: inline-block;
 }
@@ -122,7 +122,7 @@ input.MyButton:hover {
 
 .logo {
   height: 120px;
-  margin-top: -20px;
+  margin-top: 10px;
 }
 
 nav {
@@ -163,7 +163,7 @@ nav {
 }
 
 .footlinks {
-  color: red;
+  color: black;
   display: inline-block;
   padding: 25px;
   text-decoration: none;
