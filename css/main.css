@@ -15,7 +15,6 @@ html, body {
 	padding:0;
 	height:100%;
 }
-}
 
 /*------------------------------ Set background image per page -------------------*/
 html {
@@ -30,7 +29,6 @@ html {
     background: url("../img/hairdry.jpg") no-repeat center center fixed;
     background-size: 100%;
   }
-  
   .hair-bg {
     background: url("../img/hair.jpg") no-repeat center center fixed;
   }
@@ -149,16 +147,10 @@ nav {
   margin-top: 30px;
 }
 /*---------------------- Side Tab Bar -----------------*/
-.tab-title active {
+<<<<<<< HEAD
+.tab-title active {}
 
 /*---------------------- Footer -----------------*/
-
-.footlinks {
-  color: black;
-  display: inline-block;
-  padding: 25px;
-  text-decoration: none;
-}
 
 .footer {
 	background-color: #9BA9C5;
@@ -168,6 +160,13 @@ nav {
 	bottom: 0;
 	left: 0;
 	text-align: center;
+}
+
+.footlinks {
+  color: red;
+  display: inline-block;
+  padding: 25px;
+  text-decoration: none;
 }
 
 .leaf {
@@ -184,7 +183,6 @@ nav {
   text-align: center;
   padding-top: 10px;
   padding-bottom: 10px;
-
 }
 
 .fa-facebook {
