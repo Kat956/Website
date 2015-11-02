@@ -2,10 +2,19 @@
 
 @import url("https://fonts.googleapis.com/css?family=Josefin+Sans:100");
 
-body {
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html, body {
   background-size: 100%; 
   background-repeat: none;
   font-family: 'Josefin Sans';
+  margin:0;
+	padding:0;
+	height:100%;
+}
 }
 
 /*------------------------------ Set background image per page -------------------*/
@@ -33,18 +42,10 @@ html {
     background-size: 50%;
     background-position: right top;
   }
- .gallery-bg {
-    background: url("../img/hairdry.jpg") no-repeat center center fixed;
-  }
   .featured-bg {
     background: url("../img/hairdry.jpg") no-repeat center center fixed;
   }
-  .quiz-bg {
-    background: url("../img/hairdry.jpg")no-repeat center center fixed;
-  }
-  .about-bg {
-    background: url("../img/hairdry.jpg")no-repeat center center fixed;
-  }
+
 /*--------------------------------Button on Home Page---------------------*/
 input.MyButton {
   width: 230px;
@@ -150,11 +151,66 @@ nav {
 /*---------------------- Side Tab Bar -----------------*/
 .tab-title active {
 
+/*---------------------- Footer -----------------*/
+
+.footlinks {
+  color: black;
+  display: inline-block;
+  padding: 25px;
+  text-decoration: none;
 }
 
+.footer {
+	background-color: #9BA9C5;
+	width: 100%;
+	height: 70px;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	text-align: center;
+}
 
+.leaf {
+  border-top-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
 
+.fa {
+  display: inline-block;
+  width: 36px;
+  height: 36px;
+  margin-bottom: 10px;
+  color: white;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
 
+}
+
+.fa-facebook {
+  background-color: rgb(59, 89, 152);
+  text-decoration: none;
+}
+
+.fa-twitter {
+  background-color: rgb(0, 172, 237);
+  text-decoration: none;
+}
+
+.fa-instagram {
+  background-color: rgb(81, 127, 164);
+  text-decoration: none;
+}
+
+.fa-pinterest-p {
+  background-color: rgb(203, 32, 39);
+  text-decoration: none;
+}
+
+.fa-tumblr {
+  background-color: rgb(50, 80, 109);
+  text-decoration: none;
+}
 
 
 
