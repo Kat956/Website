@@ -51,6 +51,7 @@ input.MyButton {
   padding: 10px;
   font-size: 25px;
   font-family: 'Josefin Sans';
+  font-weight: bold;
   background: #F4B9B2;
   color: #FFF;
   cursor: pointer;
@@ -146,8 +147,10 @@ nav {
   margin-left: 250px;
   margin-top: 30px;
 }
+/*---------------------- Side Tab Bar -----------------*/
+.tab-title active {
 
-
+}
 
 
 
