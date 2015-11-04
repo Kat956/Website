@@ -5,12 +5,10 @@
 * {
   margin: 0;
   box-sizing: border-box;
+  font-family: 'Josefin Sans';
 }
 
 html, body {
-  background-size: 100%; 
-  background-repeat: none;
-  font-family: 'Josefin Sans';
   margin:0;
 	padding:0;
 	height:100%;
@@ -25,31 +23,30 @@ html {
 }
 
 /*------------------------------ Set background image per page -------------------*/
-  .index-bg {
+.index-bg {
     background: url("../img/hairdry.jpg") no-repeat center center fixed;
     background-size: 100%;
-  }
-  .hair-bg {
+}
+.hair-bg {
     background: url("../img/hair.jpg") no-repeat center center fixed;
-  }
-  .makeup-bg {
+}
+.makeup-bg {
     background: url("../img/brush.jpg") no-repeat center center fixed;
-  }
-  .nails-bg {
+}
+.nails-bg {
     background: url("../img/nails.png") no-repeat center center fixed;
     background-size: 40%;
     background-position: left;
-  }
-  .featured-bg {
+}
+.featured-bg {
     background: url("../img/hairdry.jpg") no-repeat center center fixed;
-  }
+}
 
 /*--------------------------------Button on Home Page---------------------*/
 input.MyButton {
   width: 230px;
   padding: 10px;
   font-size: 25px;
-  font-family: 'Josefin Sans';
   font-weight: bold;
   background: #F4B9B2;
   color: #FFF;
@@ -70,64 +67,50 @@ input.MyButton:hover {
   box-shaddow: 2px 2px 5px; #666666;
 }
 
-/*---------------------- Styles for the entire lavaLamp menu -----------------*/
-
-/* Styles for the menu */
-.lavaLamp {
-  position: relative;
-  top: -50px;
-  height: 40px; 
-  padding: 25px; 
-  overflow: hidden;
-  display: inline-block;
-}
-
-/* Force the list to flow horizontally */
-.lavaLamp li {
-  float: left;
-  list-style: none;
-}
-    
-/* Represents the background of the highlighted menu-item. */
-.lavaLamp li.back {
-  width: 9px; 
-  height: 30px;
-  z-index: 8;
-  position: absolute;
-}
-
-.lavaLamp li.back .left {
-  background-color: #9BA9C5;
-  border-radius: 7px;
-  height: 30px;
-  margin-right: 9px;
-}
-    
-/* Styles for each menu-item. */
-.lavaLamp li a {
-  position: relative; 
-  overflow: hidden;
-  text-decoration: none;
-  text-transform: uppercase; 
-  color: #000000;
-  font-weight: bold;
-  text-align: center;
-  height: 30px; 
-  top: 7px;
-  z-index: 10; 
-  float: left; 
-  display: block;
-  margin: auto 10px;
-}
+/*---------------------- Styles for the nav bar -----------------*/
 
 .logo {
   height: 120px;
-  margin-top: 10px;
 }
 
 nav {
   text-align: center;
 }
+
+nav ul {
+  display: inline;
+  margin-bottom: -200px;
+}
+
+.sliding-u-b-t > a {
+  color: black;
+	text-decoration: none;
+}
+
+.sliding-u-b-t {
+	display: inline-block;
+	position: relative;
+	padding: 10px;
+	font-size: 20px;
+	
+}
+.sliding-u-b-t:after {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	height: 0px;
+	width: 100%;
+	background: transparent;
+	-webkit-transition: all ease 0.5s;
+	-moz-transition: all ease 0.5s;
+	transition: all ease 0.5s;
+}
+.sliding-u-b-t:hover:after {
+	height: 35px;
+	background: rgba(160,174,197,0.4);
+}
+
 
 /*---------------------- Main Text On Home Page -----------------*/
 
@@ -153,7 +136,7 @@ nav {
 /*---------------------- Footer -----------------*/
 
 .footer {
-	background-color: #9BA9C5;
+	background-color: rgba(155, 169, 197, 0.8);
 	width: 100%;
 	height: 70px;
 	position: absolute;
