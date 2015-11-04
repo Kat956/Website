@@ -22,7 +22,6 @@ html {
   background-size: 100%;
 }
 
-/*------------------------------ Set background image per page -------------------*/
 .index-bg {
     background: url("../img/hairdry.jpg") no-repeat center center fixed;
     background-size: 100%;
@@ -71,6 +70,7 @@ input.MyButton:hover {
 
 .logo {
   height: 120px;
+  vertical-align: middle;
 }
 
 nav {
@@ -80,6 +80,7 @@ nav {
 nav ul {
   display: inline;
   margin-bottom: -200px;
+  padding: 40px;
 }
 
 .sliding-u-b-t > a {
