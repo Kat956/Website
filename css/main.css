@@ -75,6 +75,7 @@ input.MyButton:hover {
 
 nav {
   text-align: center;
+  font-weight: bold;
 }
 
 nav ul {
@@ -132,7 +133,9 @@ nav ul {
 }
 /*---------------------- Side Tab Bar -----------------*/
 
-.tab-title active {}
+.tab-title active {
+  
+}
 
 /*---------------------- Footer -----------------*/
 
