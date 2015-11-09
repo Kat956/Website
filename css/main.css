@@ -54,7 +54,7 @@ input.MyButton {
   border-radius: 10px;
   -webkit-box-shadow: 6px 6px 5px #999999;
   -moz-box-shadow: 6px 6px 5px #999999;
-  box-shadow: 6px 6px 5px #999999;
+  box-shaddow: 6px 6px 5px; #999999;
 }
 
 input.MyButton:hover {
@@ -108,11 +108,9 @@ nav ul {
 	-moz-transition: all ease 0.5s;
 	transition: all ease 0.5s;
 }
-
 .sliding-u-b-t:hover:after {
 	height: 35px;
 	background: rgba(160,174,197,0.4);
-	z-index: -100;
 }
 
 
