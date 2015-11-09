@@ -32,11 +32,7 @@ html {
 .makeup-bg {
     background: url("../img/brush.jpg") no-repeat center center fixed;
 }
-.nails-bg {
-    background: url("../img/nails.png") no-repeat center center fixed;
-    background-size: 40%;
-    background-position: left;
-}
+
 .featured-bg {
     background: url("../img/hairdry.jpg") no-repeat center center fixed;
 }
@@ -54,7 +50,7 @@ input.MyButton {
   border-radius: 10px;
   -webkit-box-shadow: 6px 6px 5px #999999;
   -moz-box-shadow: 6px 6px 5px #999999;
-  box-shaddow: 6px 6px 5px; #999999;
+  box-shadow: 6px 6px 5px #999999;
 }
 
 input.MyButton:hover {
@@ -63,10 +59,16 @@ input.MyButton:hover {
   border: 1px solid #A3A3A3;
   -webkit-box-shadow: 2px 2px 5px #666666;
   -moz-box-shadow: 2px 2px 5px #666666;
-  box-shaddow: 2px 2px 5px; #666666;
+  box-shadow: 2px 2px 5px #666666;
 }
 
 /*---------------------- Styles for the nav bar -----------------*/
+
+#date {
+  position: absolute;
+  left: 10px;
+  top: 5px;
+}
 
 .logo {
   height: 120px;
@@ -107,6 +109,7 @@ nav ul {
 	-webkit-transition: all ease 0.5s;
 	-moz-transition: all ease 0.5s;
 	transition: all ease 0.5s;
+	z-index: -100;
 }
 .sliding-u-b-t:hover:after {
 	height: 35px;
@@ -131,7 +134,6 @@ nav ul {
   margin-left: 250px;
   margin-top: 30px;
 }
-
 /*---------------------- Side Tab Bar -----------------*/
 
 .tab-title active {
@@ -141,9 +143,9 @@ nav ul {
 /*---------------------- Footer -----------------------*/
 
 .footer {
-	background-color: rgb(0, 0, 0);
+	background-color: rgba(155, 169, 197, 0.8);
 	width: 100%;
-	height: 80px;
+	height: 70px;
 	position: absolute;
 	bottom: 0;
 	left: 0;
@@ -198,10 +200,5 @@ nav ul {
   text-decoration: none;
 }
 
-
-
-
-
-
-
+/*------------- Slide Show ---------------*/
 
