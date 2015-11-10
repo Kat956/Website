@@ -23,18 +23,18 @@ html {
 }
 
 .index-bg {
-    background: url("../img/hairdry.jpg") no-repeat center center fixed;
+    background: url("../img/hairdry.jpg") no-repeat;
     background-size: 100%;
 }
 .hair-bg {
-    background: url("../img/hair.jpg") no-repeat center center fixed;
+    background: url("../img/hair.jpg") no-repeat;
 }
 .makeup-bg {
-    background: url("../img/brush.jpg") no-repeat center center fixed;
+    background: url("../img/brush.jpg") no-repeat;
 }
 
 .featured-bg {
-    background: url("../img/hairdry.jpg") no-repeat center center fixed;
+    background: url("../img/hairdry.jpg") no-repeat;
 }
 
 /*--------------------------------Button on Home Page---------------------*/
@@ -77,7 +77,6 @@ input.MyButton:hover {
 
 nav {
   text-align: center;
-  font-weight: bold;
 }
 
 nav ul {
