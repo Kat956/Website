@@ -30,11 +30,16 @@ html {
     background: url("../img/hair.jpg") no-repeat;
 }
 .makeup-bg {
-    background: url("../img/brush.jpg") no-repeat;
+    background: url("../img/brush.png") no-repeat right center;
+    background-size: 80%;
 }
 
 .featured-bg {
     background: url("../img/hairdry.jpg") no-repeat;
+}
+
+.hair-bg-nav {
+    background: url("../img/hairnav.png") no-repeat;
 }
 
 /*--------------------------------Button on Home Page---------------------*/
