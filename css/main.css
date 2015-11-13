@@ -202,6 +202,7 @@ nav ul {
 
 /*------------- Slide Show ---------------*/
 
+
 /*------------- Quiz ----------------------*/
 
 .answers li { 
@@ -215,6 +216,7 @@ cursor: pointer;
 
 #results { 
 background: #dddada; 
+font-weight: bold;
 color: 000000; 
 padding: 3px; 
 text-align: center; 

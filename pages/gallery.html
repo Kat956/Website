@@ -2,8 +2,6 @@
 <!--Gurveena's & Kat's Web Assignment-->
 
 <html xmlns="http://www.w3.org/1999/xhtml">
-  <script src="../js/jquery-2.1.4.min.js"></script>
-  <script src="../js/jquery.easing.min.js"></script>
 
   <script type="text/javascript">
 
@@ -15,12 +13,18 @@
 
 
 <head>
-   <link rel="stylesheet" type="text/css" href="../css/main.css">
-   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-   <title>Hair and Makeup</title>
+  <title>Hair and Makeup</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="../css/main.css">
+  <link rel="stylesheet" type="text/css" href="../css/slideshow.css">
+
+  <script src="../js/jquery-2.1.4.min.js"></script>
+  <script src="../js/jquery.easing.min.js"></script>
+  <script src="../js/slideshow.min.js"></script>
+  
 </head>
 
-<body class="gallery-bg">
+<body class="nails-bg">
   <header>
     
       <nav>
@@ -37,22 +41,72 @@
           <li class="sliding-u-b-t"><a href="quiz.html">Quiz</a></li>
           <li class="sliding-u-b-t"><a href="about.html">About</a></li>
         </ul>
+
       </nav>
-</header>
-  
-    <div class="footer">
+
+  </header>
+
+  <div class="bss-slides">
+    <figure>
+        <img src="../img/nails1.jpg" height="300px" width="100%" />
+        <figcaption>Hearts</figcaption> 
+    </figure>
+
+    <figure>
+        <img src="../img/nails2.jpg" height="300px" width="100%"/>
+        <figcaption>Blue and White</figcaption> 
+    </figure>
     
-      <p class="footlinks">&copy; 2015 KG & GK</p>
-      <a class="footlinks" href="#">Contact</a>
-      <a class="fa fa-facebook leaf" href="http://www.facebook.com"></a>
-      <a class="fa fa-twitter leaf" href="http://www.twitter.com"></a>
-      <a class="fa fa-instagram leaf" href="http://www.instagram.com"></a>
-      <a class="fa fa-pinterest-p leaf" href="http://www.pintrest.com"></a>
-      <a class="fa fa-tumblr leaf" href="http://www.tumblr.com"></a>
-      
-    </div>
+    <figure>
+      <img src="../img/nails3.jpg" height="300px" width="100%"/>
+      <figcaption>Pink Polka Dots</figcaption> 
+    </figure>
+
+    <figure>
+      <img src="../img/lipstickheart.jpg" height="300px" width="100%"/>
+      <figcaption>Lipstick</figcaption> 
+    </figure>
+
+    <figure>
+      <img src="../img/banner.jpg" height="300px" width="100%"/>
+      <figcaption>Model</figcaption> 
+    </figure>
+
+
+  </div> 
+
+  <script>
+
+    $(document).ready(function() {
+    
+    var opts = {
+      //auto-changing slides
+      auto : { 
+      // speed to advance slides at. accepts number of milliseconds
+        speed : 2500, 
+        pauseOnHover : true 
+           }
+       };
+    
+    
+      makeBSS('.bss-slides',opts);
+    });
+
+  </script>
+
   
-</body>
+  <div class="footer">
+  
+    <p class="footlinks">&copy; 2015 KG & GK</p>
+    <a class="footlinks" href="#">Contact</a>
+    <a class="fa fa-facebook leaf" href="http://www.facebook.com"></a>
+    <a class="fa fa-twitter leaf" href="http://www.twitter.com"></a>
+    <a class="fa fa-instagram leaf" href="http://www.instagram.com"></a>
+    <a class="fa fa-pinterest-p leaf" href="http://www.pintrest.com"></a>
+    <a class="fa fa-tumblr leaf" href="http://www.tumblr.com"></a>
+  </div>
+  
+  </body>
 </html>
 
 
