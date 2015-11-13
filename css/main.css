@@ -28,15 +28,33 @@ html {
 }
 .hair-bg {
     background: url("../img/hair.jpg") no-repeat;
+    background-size: 100%;
 }
 .makeup-bg {
     background: url("../img/brush.png") no-repeat right center;
     background-size: 80%;
 }
 
-.hair-bg-nav {
-    background: url("../img/hairnav.png") no-repeat;
+.featured-bg {
+    background: url("../img/hairdry.jpg") no-repeat;
 }
+
+.quiz-bg {
+    background: url("../img/quiz.jpg") no-repeat right center;
+    background-size: 100%;
+}
+
+.featured-bg {
+    background: url("../img/featured.jpg") no-repeat;
+    background-size: 100%;
+}
+
+.contact-bg {
+    background: url("../img/contact2.jpg") no-repeat;
+    background-size: 100%;
+}
+
+
 
 /*--------------------------------Button on Home Page---------------------*/
 input.MyButton {
@@ -78,6 +96,7 @@ input.MyButton:hover {
 
 nav {
   text-align: center;
+  font-weight: bold;
 }
 
 nav ul {
@@ -141,111 +160,167 @@ nav ul {
 }
 
 /*---------------------- Footer -----------------------*/
-
-.footer {
-	background-color: rgba(155, 169, 197, 0.8);
-	width: 100%;
-	height: 70px;
-	position: absolute;
-	bottom: 0;
-	left: 0;
-	text-align: center;
+  .footer-distributed{
+  background-color: #292c2f;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+  box-sizing: border-box;
+  width: 100%;
+  text-align: left;
+  font: bold 16px sans-serif;
+  padding: 55px 50px;
+  margin-top: 80px;
 }
 
-.footlinks {
-  color: black;
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
   display: inline-block;
-  padding: 30px;
+  vertical-align: top;
+}
+
+/* Footer left */
+
+.footer-distributed .footer-left{
+  width: 40%;
+}
+
+/* The company logo */
+
+.footer-distributed h3{
+  color:  #ffffff;
+  font: normal 36px 'Cookie', cursive;
+  margin: 0;
+}
+
+.footer-distributed h3 span{
+  color:  #5383d3;
+}
+
+/* Footer links */
+
+.footer-distributed .footer-links{
+  color:  #ffffff;
+  margin: 20px 0 12px;
+  padding: 0;
+}
+
+.footer-distributed .footer-links a{
+  display:inline-block;
+  line-height: 1.8;
   text-decoration: none;
+  color:  inherit;
 }
 
-.leaf {
-  border-top-right-radius: 15px;
-  border-bottom-left-radius: 15px;
+.footer-distributed .footer-company-name{
+  color:  #8f9296;
+  font-size: 14px;
+  font-weight: normal;
+  margin: 0;
 }
 
-.fa {
-  display: inline-block;
-  width: 36px;
-  height: 36px;
-  margin-bottom: 10px;
-  color: white;
+/* Footer Center */
+
+.footer-distributed .footer-center{
+  width: 35%;
+}
+
+.footer-distributed .footer-center i{
+  background-color:  #33383b;
+  color: #ffffff;
+  font-size: 25px;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
   text-align: center;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  line-height: 42px;
+  margin: 10px 15px;
+  vertical-align: middle;
 }
 
-.fa-facebook {
-  background-color: rgb(59, 89, 152);
-  text-decoration: none;
+.footer-distributed .footer-center i.fa-envelope{
+  font-size: 17px;
+  line-height: 38px;
 }
 
-.fa-twitter {
-  background-color: rgb(0, 172, 237);
-  text-decoration: none;
+.footer-distributed .footer-center p{
+  display: inline-block;
+  color: #ffffff;
+  vertical-align: middle;
+  margin:0;
 }
 
-.fa-instagram {
-  background-color: rgb(81, 127, 164);
-  text-decoration: none;
+.footer-distributed .footer-center p span{
+  display:block;
+  font-weight: normal;
+  font-size:14px;
+  line-height:2;
 }
 
-.fa-pinterest-p {
-  background-color: rgb(203, 32, 39);
-  text-decoration: none;
+.footer-distributed .footer-center p a{
+  color:  #5383d3;
+  text-decoration: none;;
 }
 
-.fa-tumblr {
-  background-color: rgb(50, 80, 109);
-  text-decoration: none;
+
+/* Footer Right */
+
+.footer-distributed .footer-right{
+  width: 20%;
 }
 
-/*------------- Slide Show ---------------*/
-
-
-/*------------- Quiz ----------------------*/
-
-.answers li { 
-list-style: upper-alpha; 
-} 
-
-label { 
-margin-left: 0.5em; 
-cursor: pointer; 
-} 
-
-#results { 
-background: #dddada; 
-font-weight: bold;
-color: 000000; 
-padding: 3px; 
-text-align: center; 
-width: 200px; 
-cursor: pointer; 
-border: 1px solid gray; 
+.footer-distributed .footer-company-about{
+  line-height: 20px;
+  color:  #92999f;
+  font-size: 13px;
+  font-weight: normal;
+  margin: 0;
 }
 
-#results:hover { 
-background: #3d91b8; 
-color: #ffffff; 
-padding: 3px; 
-text-align: center; 
-width: 200px; 
-cursor: pointer; 
-border: 1px solid gray; 
-} 
-
-#categorylist { 
-margin-top: 6px; 
-display: none; 
-} 
-
-#category1, #category2, #category3, #category4, #category5, #category6, #category7, #category8, #category9, #category10, #category11 { 
-display: none; 
+.footer-distributed .footer-company-about span{
+  display: block;
+  color:  #ffffff;
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 20px;
 }
 
-#closing {
-display: none;
-font-style: italic;
+.footer-distributed .footer-icons{
+  margin-top: 25px;
 }
+
+.footer-distributed .footer-icons a{
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+  background-color:  #33383b;
+  border-radius: 2px;
+
+  font-size: 20px;
+  color: #ffffff;
+  text-align: center;
+  line-height: 35px;
+
+  margin-right: 3px;
+  margin-bottom: 5px;
+}
+
+/*------------- Quiz ---------------*/
+  p.question{
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+  background: #F4B9B2;
+  color: #FFF;
+}
+
+ul.answers{
+  font-weight: bold;
+  text-align: center;
+  font-size: 15px;
+}
+/*--------------About----------------*/
+
+
+
 
